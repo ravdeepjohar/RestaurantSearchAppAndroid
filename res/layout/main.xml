@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background1"
+    android:weightSum="1">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Main Menu "
+    android:lineSpacingMultiplier="10"
+    />
+    <Button
+    android:id="@+id/searchcu" 
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Search Cuisine"
+    android:textStyle="bold"
+    android:textColor="#41627E"
+    android:layout_weight="0.06" android:textSize="25dp"/>
+    <Button
+    android:id="@+id/searchloc" 
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Search By Location"
+    android:textStyle="bold"
+    android:textColor="#41627E"
+    android:layout_weight="0.06" android:textSize="25dp"/>
+    <Button
+    android:id="@+id/searchres" 
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Search Restaurant"
+    android:textStyle="bold"
+    android:textColor="#41627E"
+    android:layout_weight="0.06" android:textSize="25dp" />
+</LinearLayout>
